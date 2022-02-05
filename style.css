@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg,black 15%, orange 70%, black 90%);
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+.imagem-cabecalho{
+    height: 70px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 70px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+}
+.banner{
+    margin-bottom: 50px;
+    border-top:1px solid aliceblue;
+}
+.banner-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-principal-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.banner-subtitulo{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size:70px ;
+    color: aliceblue;
+}
+.banner-subtitulo2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size:25px ;
+    color: aliceblue;
+}
+.login{
+    background-color: aliceblue;
+    width: 150px;
+    height: 40px;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: orange;
+}
+
+.login:hover{
+    background-color: rgb(112, 48, 23);
+
+}
+.cadastro{
+    background-color: aliceblue;
+    width: 150px;
+    height: 40px;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: orange; 
+}
+.cadastro:hover{
+background-color: brown;
+}
+
+    
+.conteudo{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:25px;
+    margin-top: 50px;
+}
+
+.conteudo-subtitulo{
+border-top: 1px solid aliceblue;
+padding-top: 50px;
+font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: orangered;
+    margin-bottom: 15px;
+}
+.conteudo-paragrafo{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:aliceblue;
+    margin-bottom: 15px;
+}
+
+#carrossel{
+   display: flex;
+   direction:row;
+   align-items: center;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.image1{
+    background-image: url(img/estacaoGamer1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px 600px;
+    
+}
+.image2{ 
+    background-image:url(img/acessoriosGamer2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    
+    
+}
+
+.image3{
+    background-image:url(img/notebookGamer2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 1px solid aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+rodape-image1{
+    height: 25px;
+}
+.rodape-image2{
+    height: 35px;
+}
+
+.conteudo-rodape{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size:15px ;
+    color: aliceblue;
+}
